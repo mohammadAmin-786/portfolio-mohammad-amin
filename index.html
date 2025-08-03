@@ -20,7 +20,7 @@
 
   <ul class="flex md:gap-4 md:mr-15 w-[60%] mr-10 font-sansarif text-lg text-white justify-around ">
     <a class="hover:text-blue-400 " href="#home">Home</a>
-    <a class="hover:text-blue-400 "  href="#features">About Me</a>
+    <a class="hover:text-blue-400 "  href="#about-me">About Me</a>
     <a class="hover:text-blue-400 "  href="#">Experience</a>
     <a class="hover:text-blue-400 "  href="#">Skills</a>
     <a class="hover:text-blue-400 "  href="#contact">Contact</a>
@@ -38,7 +38,7 @@
 
   <ul  class="flex flex-col justify-center text-white items-center ">
     <a class="hover:text-blue-400 py-1 text-center w-full " onClick={toggleMenu} href="#home">Home</a>
-    <a class="hover:text-blue-400 py-1 border-slate-600  border-y text-center w-full" onClick={toggleMenu} href="#features">About Me</a>
+    <a class="hover:text-blue-400 py-1 border-slate-600  border-y text-center w-full" onClick={toggleMenu} href="#about-me">About Me</a>
     <a class="hover:text-blue-400 py-1 text-center w-full" onClick={toggleMenu} href="#">Experience</a>
     <a class="hover:text-blue-400 py-1 border-y border-slate-600 text-center w-full" onClick={toggleMenu} href="#">Skills</a>
     <a class="hover:text-blue-400 py-1 text-center w-full" onClick={toggleMenu} href="#contact">Contact</a>
@@ -76,11 +76,56 @@
 <div id="home-L" class="flex overflow-hidden justify-center mt-8 md:mt-2  h-[30%] w-ful md:h-full md:w-[50%] items-center">
 
   <div  class="lg:w-[50%] md:w-[70%] w-[75%]  shadow-2xl  shadow-black rounded ">
-    <img src="Pic.jpg" class="h-[100%]  rounded w-[100%]"/>
+    <img src="assets/Pic.jpg" class="h-[100%]  rounded w-[100%]"/>
   </div>
 </div>
 
 </div>
+
+<!--About Me-->
+<div id="about-me" class="flex flex-col h-[90vh] ">
+<div id="about-top" class="h-[10%] w-ful flex justify-center my-3  items-center">
+  <div class=""><h1 class='md:text-3xl text-2xl text-white font-bold'>About Me</h1></div>
+</div>
+<div id="about-btm" class=" flex md:flex-row flex-col h-[86%] w-ful">
+  <div id="abt-slider" class="md:h-full md:w-[40%]  h-[40%] w-full flex justify-center items-center">
+      <div class=" h-full w-[70%]  flex justify-center items-center md:h-[90%] md:w-[80%]">
+          <div class="relative w-full max-w-4xl mx-auto overflow-hidden rounded-xl shadow-2xl">
+        
+        <!-- Slider Images Container -->
+        <div id="slider-container" class="relative">
+          
+        </div>
+
+        <button id="prev-btn" class="absolute top-1/2 left-4 transform -translate-y-1/2 p-3 bg-gray-800 bg-opacity-50 text-white rounded-full shadow-lg hover:bg-opacity-75 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+        </button>
+
+        <button id="next-btn" class="absolute top-1/2 right-4 transform -translate-y-1/2 p-3 bg-gray-800 bg-opacity-50 text-white rounded-full shadow-lg hover:bg-opacity-75 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 md:h-6 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+        </button>
+    </div>
+
+      </div>
+  </div>
+  <div id="abt-content" class="flex justify-center textlg md:text-xl text-white py-4 md:py-0 gap-6 md:gap-14 overflow-hidden items-center  flex-col w-ful h-50% md:h-full md:w-[60%]">
+    <p class="w-[80%]">My name is Mohammad Amin, and I've been on a long journey both personally and professionally. Born in Pakistan, I spent two decades of my life in the Middle East, an experience that has taught me about hard work, adaptability, and a deep appreciation for different environments.</p>
+  <p class="w-[80%]">Today, I bring that same dedication to the highways as a long-haul truck driver. The open road is not just a job for me; it's a passion. I am committed to safety, reliability, and ensuring that every delivery is handled with care. I am a detail-oriented driver who takes pride in navigating complex routes and serving my clients with the utmost professionalism.</p>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
 
 <!--Contact-->
  
