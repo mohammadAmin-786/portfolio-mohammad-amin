@@ -7,6 +7,7 @@ const nextBtn = document.getElementById('next-btn');
 const slideUrls = [
         'assets/Pic2.jpg',
     'assets/Pic3.jpg',
+    'assets/Pic1.jpg',
     'assets/Pic4.jpg',
     'assets/Pic5.jpg',
     'assets/Pic6.jpg'
